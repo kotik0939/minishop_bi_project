@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS categories (
     name VARCHAR(255) NOT NULL
 );
 
-Покупатели
+--Покупатели
 CREATE TABLE IF NOT EXISTS customers (
     customer_id SERIAL PRIMARY KEY,
     full_name VARCHAR(255) NOT NULL,
